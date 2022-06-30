@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image'
 import { useState } from 'react';
-import LoginBtn from '../Loginbt';
+import LoginBtn from './Loginbt';
 
 
 export const Navbar = () => {
