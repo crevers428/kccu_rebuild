@@ -1,7 +1,7 @@
 import { useSession, signIn, signOut } from "next-auth/react"
 import { useState, useRef } from 'react';
 import Link from 'next/link'
-import useDetectClose from '../hooks/useDetectClose'
+import useDetectClose from '../../hooks/useDetectClose'
 
 export default function Component() {
     const { data: session } = useSession()
