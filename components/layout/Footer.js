@@ -1,6 +1,6 @@
 export const Footer = () => {
     return (
-        <footer className="p-4 bg-white rounded-lg shadow md:px-6 md:py-8 dark:bg-gray-800">
+        <footer className="p-4 bg-white border-stone-200 border-t shadow md:px-6 md:py-8 dark:bg-gray-800">
             <div className="sm:flex sm:items-center sm:justify-between">
                 <span className="flex items-center mb-4 sm:mb-0">
                     <img src="/kccu.svg" className="mr-3 h-8" alt="KCCU Logo" />

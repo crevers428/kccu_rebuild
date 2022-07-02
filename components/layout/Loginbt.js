@@ -1,5 +1,5 @@
 import { useSession, signIn, signOut } from "next-auth/react"
-import { useState, useRef } from 'react';
+import { useRef } from 'react';
 import Link from 'next/link'
 import useDetectClose from '../../hooks/useDetectClose'
 

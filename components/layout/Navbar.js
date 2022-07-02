@@ -8,7 +8,7 @@ export const Navbar = () => {
     const [isOpen, setIsOpen] = useState(true);
 
     return (
-        <nav className="flex items-center justify-between flex-wrap bg-gray p-6">
+        <nav className="flex items-center justify-between flex-wrap bg-gray p-6 border-stone-200 border-b">
             <div className="flex items-center flex-shrink-0 text-gray-500 mr-6">
                 <img className="fill-current h-10 w-10 mr-2" width="54" height="54" viewBox="0 0 54 54" src="/kccu.svg" />
                 <Link href="/">
@@ -33,12 +33,17 @@ export const Navbar = () => {
                 <div className="text-sm md:flex-grow">
                     <Link href="/aboutus">
                         <a  className="block mt-4 md:inline-block md:mt-0 text-gray-500 hover:text-gray-300 mr-4">
-                            About Us
+                            소개
                         </a>                    
                     </Link>
                     <Link href="/#">
                         <a className="block mt-4 md:inline-block md:mt-0 text-gray-500 hover:text-gray-300 mr-4">
-                            Competitions
+                            대회
+                        </a>
+                    </Link>
+                    <Link href="/registration">
+                        <a className="block mt-4 md:inline-block md:mt-0 text-gray-500 hover:text-gray-300 mr-4">
+                            참가접수
                         </a>
                     </Link>
                     <a href="#responsive-header" className="block mt-4 md:inline-block md:mt-0 text-gray-500 hover:text-gray-300 self-end">
