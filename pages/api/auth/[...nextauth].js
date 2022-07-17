@@ -13,9 +13,9 @@ export default NextAuth({
         userinfo: "https://www.worldcubeassociation.org/api/v0/me",
         profile(profile) {
             return {
-                id: profile.me.wca_id,
+                id: profile.me.wca_id ? profile.me.wca_id : "",
                 name: profile.me.name,
-                email: profile.me.wca_id,
+                email: profile.me.wca_id ? profile.me.wca_id : "",
                 image: profile.me.avatar.url
             }
         },

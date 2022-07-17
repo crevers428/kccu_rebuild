@@ -36,7 +36,7 @@ export const Navbar = () => {
                             소개
                         </a>                    
                     </Link>
-                    <Link href="/#">
+                    <Link href="/competitions">
                         <a className="block mt-4 md:inline-block md:mt-0 text-gray-500 hover:text-gray-300 mr-4">
                             대회
                         </a>
