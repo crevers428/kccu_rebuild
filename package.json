@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/mysql": "^2.15.21",
+    "@types/react": "^18.0.15",
     "autoprefixer": "^10.4.7",
     "dotenv": "^16.0.1",
     "mysql": "^2.18.1",
@@ -22,8 +24,10 @@
     "tw-elements": "^1.0.0-alpha12"
   },
   "devDependencies": {
+    "@types/node": "^18.6.2",
     "eslint": "8.18.0",
     "eslint-config-next": "12.1.6",
-    "tailwind-clip-path": "^1.0.0"
+    "tailwind-clip-path": "^1.0.0",
+    "typescript": "^4.7.4"
   }
 }
