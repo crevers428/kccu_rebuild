@@ -1,7 +1,10 @@
 {
   "include": [
     "./pages/api"
-    , "config"  
+    , "pages/api/config"
+    , "./components"
+    , "./controller"
+    , "hooks"
     ],
   "compilerOptions": {
     "module": "commonjs",
@@ -10,7 +13,7 @@
     //"checkJs": false,
     "jsx": "preserve",
     "outDir": "./build",
-    "rootDir": "./pages",
+    "rootDir": ".",
     "strict": true,
     "lib": [
       "dom",
